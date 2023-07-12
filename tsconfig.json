@@ -1,0 +1,13 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "skipLibCheck": true,
+    "paths": {
+      "~/*": [
+        "./src/*"
+      ],
+    },
+    "types": ["nativewind/types"],
+  },
+}
