@@ -92,7 +92,7 @@ export default function Page() {
     <Box safeAreaTop flex={1} bg={colors.background}>
       <Animated.View style={[headerOpacity]}>
         <Header
-          title="Wellcome"
+          title="Welcome"
           subtitle={user?.name}
           rightComponent={
             <MenuOptions
